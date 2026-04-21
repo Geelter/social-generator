@@ -29,10 +29,17 @@ body {
   box-sizing: border-box;
 }
 
+.subhead {
+  font-family: 'Italiana', serif;
+  font-size: 32px;
+  color: var(--color-green);
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: var(--fs-h1);
   line-height: var(--lh-tight);
+  letter-spacing: -1px;
   margin: 0;
 }
 
