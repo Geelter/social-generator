@@ -22,24 +22,25 @@
   --radius-lg: 24px;
   --radius-xl: 28px;
   --radius-pill: 999px;
+  --radius-arch: 220px 220px 24px 24px;
 
-  --fs-display: 64px;
-  --fs-h1: 52px;
-  --fs-h2: 40px;
-  --fs-h3: 28px;
-  --fs-body: 18px;
-  --fs-small: 14px;
-  --fs-micro: 12px;
+  --fs-display: 84px;
+  --fs-h1: 64px;
+  --fs-h2: 46px;
+  --fs-h3: 32px;
+  --fs-body: 26px;
+  --fs-small: 20px;
+  --fs-micro: 16px;
 
-  --lh-tight: 1.05;
+  --lh-tight: 1.02;
   --lh-snug: 1.15;
-  --lh-body: 1.4;
+  --lh-body: 1.35;
   --lh-relaxed: 1.5;
 
-  --shadow-soft: 0 10px 30px rgba(42, 34, 30, 0.08);
-  --shadow-float: 0 16px 40px rgba(42, 34, 30, 0.10);
+  --shadow-soft: 0 12px 32px rgba(42, 34, 30, 0.08);
+  --shadow-float: 0 18px 48px rgba(42, 34, 30, 0.12);
 
-  --border-subtle: 1px solid var(--color-stone);
-  --border-strong: 1px solid rgba(42, 34, 30, 0.16);
+  --border-subtle: 1px solid rgba(42, 34, 30, 0.12);
+  --border-strong: 1px solid rgba(42, 34, 30, 0.18);
   --border-gold: 1px solid var(--color-gold);
 }
