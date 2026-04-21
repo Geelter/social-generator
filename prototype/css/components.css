@@ -1,0 +1,44 @@
+.accent-line {
+  width: 100px;
+  height: 3px;
+  background: var(--color-green);
+  position: relative;
+  margin-bottom: var(--space-md);
+}
+
+.accent-line::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  width: 30px;
+  height: 3px;
+  background: var(--color-red);
+}
+
+.cta {
+  background: var(--color-green);
+  color: white;
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-small);
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.info-panel {
+  border-top: var(--border-subtle);
+  border-bottom: var(--border-subtle);
+  padding: var(--space-lg) 0;
+}
+
+.brand {
+  font-size: var(--fs-small);
+  opacity: 0.6;
+}
