@@ -22,15 +22,9 @@
 }
 
 .dish-details {
-  width: 100%;
 }
 
 .dish-cta { display: none; }
-
-.dish-brand {
-  grid-column: 10 / 12;
-  grid-row: 11 / 12;
-}
 
 .hours-header { grid-column: 1 / 13; grid-row: 2 / 4; text-align: center; }
 .hours-subhead { display: none; }
