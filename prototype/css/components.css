@@ -1,18 +1,9 @@
 .accent-line {
-  width: 100px;
-  height: 3px;
-  background: var(--color-green);
+  width: 180px;
+  height: 6px;
+  background: linear-gradient(to right, var(--color-green) 70%, var(--color-red) 30%);
   position: relative;
-  margin-bottom: var(--space-md);
-}
-
-.accent-line::after {
-  content: "";
-  position: absolute;
-  right: -30px;
-  width: 30px;
-  height: 3px;
-  background: var(--color-red);
+  margin-bottom: var(--space-lg);
 }
 
 .cta {
@@ -34,12 +25,23 @@
 }
 
 .info-panel {
-  border-top: var(--border-subtle);
-  border-bottom: var(--border-subtle);
-  padding: var(--space-lg) 0;
-  margin-bottom: var(--space-lg);
+  padding: var(--space-md) 0;
   display: grid;
-  gap: 18px;
+  gap: 24px;
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.hours-day {
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .brand {
