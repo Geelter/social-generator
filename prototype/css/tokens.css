@@ -24,13 +24,13 @@
   --radius-pill: 999px;
   --radius-arch: 220px 220px 24px 24px;
 
-  --fs-display: 92px;
-  --fs-h1: 72px;
-  --fs-h2: 52px;
-  --fs-h3: 36px;
-  --fs-body: 30px;
-  --fs-small: 22px;
-  --fs-micro: 16px;
+  --fs-display: 110px;
+  --fs-h1: 84px;
+  --fs-h2: 60px;
+  --fs-h3: 42px;
+  --fs-body: 34px;
+  --fs-small: 26px;
+  --fs-micro: 18px;
 
   --lh-tight: 1.02;
   --lh-snug: 1.15;
