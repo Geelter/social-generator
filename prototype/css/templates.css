@@ -7,6 +7,6 @@
 
 .hours-header { grid-column: 1 / 13; grid-row: 2 / 4; text-align: center; }
 .hours-subhead { display: none; }
-.hours-panel { grid-column: 1 / 13; grid-row: 5 / 9; display: grid; gap: 32px; justify-content: center; align-content: center; text-align: center; }
+.hours-panel { grid-column: 4 / 10; grid-row: 5 / 9; display: grid; gap: 32px; justify-content: normal; align-content: center; text-align: center; }
 .hours-cta { display: none; }
 .hours-brand { grid-column: 10 / 12; grid-row: 10 / 11; }
