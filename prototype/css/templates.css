@@ -19,10 +19,13 @@
 .dish-details {
   grid-column: 2 / 9;
   grid-row: 9 / 11;
-  background: var(--color-warm-white);
+  background: linear-gradient(
+    to right,
+    rgba(252, 250, 246, 0.96),
+    rgba(252, 250, 246, 0.82)
+  );
   padding: var(--space-md) var(--space-lg);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-soft);
+  border-radius: 48px;
   text-align: left;
 }
 
