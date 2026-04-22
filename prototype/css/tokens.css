@@ -24,18 +24,18 @@
   --radius-pill: 999px;
   --radius-arch: 220px 220px 24px 24px;
 
-  --fs-display: 110px;
-  --fs-h1: 84px;
-  --fs-h2: 60px;
-  --fs-h3: 42px;
-  --fs-body: 34px;
-  --fs-small: 26px;
-  --fs-micro: 18px;
+  --fs-display: 120px;
+  --fs-h1: 92px;
+  --fs-h2: 66px;
+  --fs-h3: 48px;
+  --fs-body: 38px;
+  --fs-small: 28px;
+  --fs-micro: 20px;
 
   --lh-tight: 1.02;
   --lh-snug: 1.15;
-  --lh-body: 1.35;
-  --lh-relaxed: 1.5;
+  --lh-body: 1.28;
+  --lh-relaxed: 1.45;
 
   --shadow-soft: 0 12px 32px rgba(42, 34, 30, 0.08);
   --shadow-float: 0 18px 48px rgba(42, 34, 30, 0.12);
