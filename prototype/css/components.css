@@ -38,17 +38,19 @@
 }
 
 .hours-row {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  max-width: 700px;
+  max-width: 820px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: baseline;
+  column-gap: 64px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 .hours-day {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: var(--fs-small);
   opacity: 0.78;
 }
