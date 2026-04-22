@@ -30,22 +30,36 @@
   gap: 24px;
 }
 
+.hours-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
 .hours-row {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
-  font-weight: 500;
-  font-size: var(--fs-body);
+  align-items: baseline;
 }
 
 .hours-day {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: var(--fs-small);
+  opacity: 0.78;
+}
+
+.hours-time {
+  font-size: var(--fs-h3);
+  font-weight: 600;
 }
 
 .brand {
   font-size: var(--fs-small);
-  opacity: 0.6;
+  opacity: 0.4;
+  letter-spacing: 1px;
 }
