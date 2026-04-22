@@ -42,7 +42,7 @@
   max-width: 820px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   align-items: baseline;
   column-gap: 64px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -53,11 +53,13 @@
   letter-spacing: 1px;
   font-size: var(--fs-small);
   opacity: 0.78;
+  text-align: left;
 }
 
 .hours-time {
   font-size: var(--fs-h3);
   font-weight: 600;
+  text-align: right;
 }
 
 .brand {
