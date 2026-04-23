@@ -24,7 +24,7 @@
   border-radius: 220px 220px 28px 28px;
   overflow: hidden;
   background: var(--color-cream);
-  box-shadow: var(--shadow-soft);
+  box-shadow: none;
 }
 
 .image {
@@ -38,14 +38,13 @@
 }
 
 .dish-details {
-  background: var(--color-cream);
+  background: color-mix(in srgb, var(--color-green) 12%, var(--color-warm-white));
   padding: 18px 28px 20px;
-  border-left: var(--border-subtle);
-  border-right: var(--border-subtle);
-  border-bottom: var(--border-subtle);
+  border-top: 2px solid rgba(14, 143, 85, 0.22);
   font-size: var(--fs-small);
   letter-spacing: 1px;
   line-height: var(--lh-snug);
+  color: var(--color-espresso);
 }
 
 .info-panel {
