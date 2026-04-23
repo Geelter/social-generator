@@ -39,7 +39,7 @@
 }
 
 .dish-details {
-  background: color-mix(in srgb, var(--color-green) 22%, var(--color-warm-white));
+  background: color-mix(in srgb, var(--color-green) 45%, var(--color-warm-white));
   padding: 16px 28px 18px;
   border-top: 4px solid var(--color-red);
   font-size: var(--fs-small);
