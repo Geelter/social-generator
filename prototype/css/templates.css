@@ -21,9 +21,6 @@
   height: 100%;
 }
 
-.dish-details {
-}
-
 .dish-cta { display: none; }
 
 .hours-header { grid-column: 1 / 13; grid-row: 2 / 4; text-align: center; }
