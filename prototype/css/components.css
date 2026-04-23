@@ -55,11 +55,11 @@
   opacity: 0.9;
 }
 
-.garnish-top-left {
-  top: 40px;
-  left: 40px;
+.garnish-bottom-left {
+  bottom: -50px;
+  left: -48px;
   width: 140px;
-  transform: rotate(-12deg);
+  transform: rotate(-20deg);
 }
 
 .garnish-bottom-right {
